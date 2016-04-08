@@ -30,3 +30,7 @@
 
 # Debug files
 *.dSYM/
+
+.DS_Store
+fractal/.DS_Store
+fractal/libfractal/.DS_Store
