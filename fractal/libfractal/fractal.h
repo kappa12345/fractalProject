@@ -1,8 +1,14 @@
 #ifndef _FRACTAL_H
 #define _FRACTAL_H
 
-struct fractal {
-    /* TODO: à remplir */
+struct fractal
+{
+    char name[65];
+    unsigned int width;
+    unsigned int height;
+    double a;
+    double b;
+    int *pixel[][];
 };
 
 /*
