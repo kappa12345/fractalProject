@@ -9,7 +9,7 @@ struct fractal *fractal_new(const char *name, int width, int height, double a, d
         fprintf(stderr, "Memory allocation error. errno=%d %s\n", errno, strerror(errno));
         exit(EXIT_FAILURE);
     }
-    int tab[width][height] = {{0}}; //tous les éléments sont initialisés à 0;
+    int tab[width][height] = {{0}}; //tous les éléments sont initialisés à 0; ça pu les gars
     new->pixel = tab;
     strcpy(new->name,name);
     new->width = width;
